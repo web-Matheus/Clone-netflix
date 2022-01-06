@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,100&family=Roboto:ital@0;1&display=swap');
+
+.apresentação{
+    height: 100vh;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+p{
+    color: white;
+    max-width: 60%;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.gradiente-vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top,#111 10%, transparent 90%);
+}
+.gradiente-horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right,#111 30%,transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    padding-bottom: 150px;
+}
+.dados{
+    margin: 0 0 0 40px;
+}
+.dados h1{   
+    width: 40%;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: bold;
+    margin-top: 10vh;
+    
+}
+.notas strong{
+   margin-right: 20px;
+   font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.notas .media{
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+.btn a{
+    padding:.8rem ;
+    background: #fff;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    margin:0 2rem 0 0;
+
+}
+.btn .lista{
+    padding:.8rem ;
+    background: #141414;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+
+}
+@media(max-width:1024px){
+    .apresentação{
+        height: 80vh;
+        margin: 0px 0 50px 0;
+    }
+    .dados h1{   
+        width: 100%;
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        font-weight: bold;
+        margin-top: 10vh;
+        
+    }
+    .dados p{
+        max-width: 100%;
+        margin-top: -30px;
+
+    }
+    .notas{
+        padding: 0px 0 50px 0;
+    }
+    .btn .lista{
+        padding:.8rem ;
+        background: rgb(44, 43, 43);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 4px;
+        
+    
+    }
+    .btn a{
+        padding:.8rem ;
+        background: #fff;
+        text-decoration: none;
+        color: black;
+        border-radius: 4px;
+    
+    }
+
+}
